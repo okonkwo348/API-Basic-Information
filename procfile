@@ -1,1 +1,1 @@
-web: gunicorn InfornList.wsgi:application
+web: gunicorn InfornList.wsgi --logfile
