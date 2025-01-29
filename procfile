@@ -1,1 +1,1 @@
-web: gunicorn InfornList.wsgi --logfile
+web: gunicorn InfornList.wsgi --bind 0.0.0.0:$PORT
