@@ -1,1 +1,1 @@
-web: gunicorn InfornList.wsgi
+web: gunicorn InfornList.wsgi:application
